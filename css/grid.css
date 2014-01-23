@@ -8,6 +8,7 @@
   *letter-spacing: normal;
   *word-spacing: -0.43em;
   text-rendering: optimizespeed;
+  padding: 0.6em;
 }
 .opera-only :-o-prefocus,
 .grid {
