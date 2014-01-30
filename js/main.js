@@ -1,4 +1,9 @@
 var $items = $('.carousel-items img');
+var $dipper = $('.dipper');
+
+$('.dipper-section').waypoint(function () {
+	$dipper.addClass('js-dipper-animate');
+}, { offset: '60%' });
 
 var switchItems = function (outgoing, incoming) {
 	$items.eq(incoming).attr('data-state', 'incoming').fadeIn(250, function () {

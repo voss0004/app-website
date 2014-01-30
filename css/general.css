@@ -148,3 +148,69 @@ dialog + .backdrop {
 
 		
 }
+
+section {
+	padding: 10rem 0;	
+}
+
+.orbit-section {
+	background-color: #fff;	
+}
+
+.planet-wrapper {
+	position: relative;	
+}
+
+.planet {
+	width: 150px;
+	display: block;
+	margin: 0 auto;	
+}
+
+.rocket {
+	position: absolute;
+	left: 50%;
+	width: 60px;	
+	margin-left: -28px;
+	top: -25px;
+	-webkit-animation: rocket-rotate 6s linear infinite;
+	-webkit-transform-origin: 50% 100px;
+}
+
+
+@-webkit-keyframes rocket-rotate {
+	
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+
+}
+
+.dipper-section {
+	background-color: #34768B;	
+}
+
+.dipper {
+	width: 240px;
+	opacity: 0;	
+	display: block;
+	margin: 0 auto;	
+	-webkit-animation: dipper-fade 2s linear 1 forwards;
+}
+
+.js-dipper-animate {
+	-webkit-animation: dipper-fade 2s linear 1 forwards;	
+}
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;	
+	}
+	100% {
+		opacity: 1;	
+	}
+}
