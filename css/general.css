@@ -167,7 +167,7 @@ section {
 	margin: 0 auto;	
 }
 
-.rocket {
+.car {
 	position: absolute;
 	left: 50%;
 	width: 60px;	
@@ -190,11 +190,11 @@ section {
 
 }
 
-.dipper-section {
+.wheel-section {
 	background-color: #34768B;	
 }
 
-.dipper {
+.wheel {
 	width: 240px;
 	opacity: 0;	
 	display: block;
@@ -202,7 +202,7 @@ section {
 	-webkit-animation: dipper-fade 2s linear 1 forwards;
 }
 
-.js-dipper-animate {
+.js-wheel-animate {
 	-webkit-animation: dipper-fade 2s linear 1 forwards;	
 }
 
@@ -213,4 +213,10 @@ section {
 	100% {
 		opacity: 1;	
 	}
+}
+
+h2 {
+	text-align: center;
+	font-weight:300;
+	font-size:18px;	
 }

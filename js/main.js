@@ -1,8 +1,8 @@
 var $items = $('.carousel-items img');
-var $dipper = $('.dipper');
+var $dipper = $('.wheel');
 
-$('.dipper-section').waypoint(function () {
-	$dipper.addClass('js-dipper-animate');
+$('.wheel-section').waypoint(function () {
+	$dipper.addClass('js-wheel-animate');
 }, { offset: '60%' });
 
 var switchItems = function (outgoing, incoming) {
